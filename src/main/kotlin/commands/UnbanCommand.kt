@@ -12,7 +12,7 @@ import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 import java.util.*
 
-@CommandHeader("unban")
+@CommandHeader(name = "unban", permission = "playerban.unban")
 object UnbanCommand {
 
     @CommandBody

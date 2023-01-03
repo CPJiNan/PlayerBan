@@ -5,7 +5,7 @@ import taboolib.common.platform.command.CommandHeader
 import taboolib.common.platform.command.mainCommand
 import taboolib.expansion.createHelper
 
-@CommandHeader("playerban")
+@CommandHeader(name = "playerban")
 object MainCommand {
 
     @CommandBody

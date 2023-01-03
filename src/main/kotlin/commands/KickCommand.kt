@@ -11,7 +11,7 @@ import taboolib.common.util.replaceWithOrder
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader("kick")
+@CommandHeader(name = "kick", permission = "playerban.kick")
 object KickCommand {
 
     @CommandBody
