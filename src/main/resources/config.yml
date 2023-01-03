@@ -1,0 +1,30 @@
+# 全局设置
+options:
+  # bStats数据统计
+  metrics: true
+# 模块设置
+module:
+  # 请出模块
+  kick:
+    # 启用请出模块
+    enable: true
+    # 请出消息格式
+    format:
+      - "&c您已被管理员从服务器请出！"
+      - ""
+      - "&7请出原因: &f{0}"
+      - "&7查看详情: &b&nhttps://www.mcbbs.net/"
+      - ""
+      - "&7事件ID: &f{1}"
+  # 封禁模块
+  ban:
+    # 启用封禁模块
+    enable: true
+    # 封禁消息格式
+    format:
+      - "&c您的账号已被该服务器封禁！"
+      - ""
+      - "&7封禁原因: &f{0}"
+      - "&7查看详情: &b&nhttps://www.mcbbs.net/"
+      - ""
+      - "&7事件ID: &f{1}"
