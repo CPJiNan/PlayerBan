@@ -30,7 +30,7 @@ object BanCommand {
 
                     Bukkit.getPlayerExact(context.get(0))?.kickPlayer(FormatManager.getBanFormat(context.get(0), context.get(1)))
 
-                    sender.sendMessage(("&c已封禁玩家 &7" + context.get(0) + " &c!").colored())
+                    sender.sendMessage(("&c已封禁玩家 &f" + context.get(0) + " &c!").colored())
                 }
             }
         }
