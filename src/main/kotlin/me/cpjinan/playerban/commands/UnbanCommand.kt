@@ -24,7 +24,7 @@ object UnbanCommand {
                 ConfigManager.data["player." + context.get(0)] = null
                 ConfigManager.data.saveToFile(ConfigManager.data.file)
 
-                sender.sendMessage(("&c已解封玩家 " + context.get(0) + " !").colored())
+                sender.sendMessage(("&c已解封玩家 &7" + context.get(0) + " &c!").colored())
             }
         }
     }
