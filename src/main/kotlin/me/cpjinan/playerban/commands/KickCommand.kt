@@ -1,17 +1,13 @@
 package me.cpjinan.playerban.commands
 
-import me.cpjinan.playerban.manager.ConfigManager
-import me.cpjinan.playerban.manager.FormatManager
 import me.cpjinan.playerban.manager.FormatManager.getKickFormat
 import org.bukkit.Bukkit
-import org.bukkit.entity.Player
 import taboolib.common.platform.ProxyCommandSender
 import taboolib.common.platform.command.*
-import taboolib.common.util.replaceWithOrder
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader(name = "kick", permission = "playerban.kick")
+@CommandHeader(name = "kick", permission = "playerban.kick", permissionDefault = PermissionDefault.FALSE)
 object KickCommand {
 
     @CommandBody

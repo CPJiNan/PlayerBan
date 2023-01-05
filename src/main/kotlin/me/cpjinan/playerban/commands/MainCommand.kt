@@ -1,16 +1,12 @@
 package me.cpjinan.playerban.commands
 
-import me.cpjinan.playerban.manager.ConfigManager
 import me.cpjinan.playerban.manager.ConfigManager.data
 import taboolib.common.platform.ProxyCommandSender
-import taboolib.common.platform.command.CommandBody
-import taboolib.common.platform.command.CommandHeader
-import taboolib.common.platform.command.mainCommand
-import taboolib.common.platform.command.subCommand
+import taboolib.common.platform.command.*
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader(name = "playerban")
+@CommandHeader(name = "playerban", permissionDefault = PermissionDefault.FALSE)
 object MainCommand {
 
     @CommandBody

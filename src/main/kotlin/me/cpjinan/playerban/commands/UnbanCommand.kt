@@ -1,18 +1,12 @@
 package me.cpjinan.playerban.commands
 
 import me.cpjinan.playerban.manager.ConfigManager
-import me.cpjinan.playerban.manager.FormatManager
-import org.bukkit.BanList
-import org.bukkit.Bukkit
 import taboolib.common.platform.ProxyCommandSender
 import taboolib.common.platform.command.*
-import taboolib.common.platform.function.getDataFolder
-import taboolib.common.util.replaceWithOrder
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
-import java.util.*
 
-@CommandHeader(name = "unban", permission = "playerban.unban")
+@CommandHeader(name = "unban", permission = "playerban.unban", permissionDefault = PermissionDefault.FALSE)
 object UnbanCommand {
 
     @CommandBody
