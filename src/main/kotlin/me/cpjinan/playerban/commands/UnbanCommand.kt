@@ -6,7 +6,7 @@ import taboolib.common.platform.command.*
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader(name = "unban", permission = "playerban.unban", permissionDefault = PermissionDefault.FALSE)
+@CommandHeader(name = "unban", permission = "playerban.unban")
 object UnbanCommand {
 
     @CommandBody

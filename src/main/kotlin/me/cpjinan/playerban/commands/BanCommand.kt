@@ -8,7 +8,7 @@ import taboolib.common.platform.command.*
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader(name = "ban", permission = "playerban.ban", permissionDefault = PermissionDefault.FALSE)
+@CommandHeader(name = "ban", permission = "playerban.ban")
 object BanCommand {
 
     @CommandBody

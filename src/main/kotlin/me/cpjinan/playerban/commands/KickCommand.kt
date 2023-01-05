@@ -7,7 +7,7 @@ import taboolib.common.platform.command.*
 import taboolib.expansion.createHelper
 import taboolib.module.chat.colored
 
-@CommandHeader(name = "kick", permission = "playerban.kick", permissionDefault = PermissionDefault.FALSE)
+@CommandHeader(name = "kick", permission = "playerban.kick")
 object KickCommand {
 
     @CommandBody
